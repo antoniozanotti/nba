@@ -21,7 +21,7 @@ It's being used [balldontlie API](https://www.balldontlie.io/) to get players da
 git clone git@github.com:antoniozanotti/nba.git
 cd nba
 cp .env.example .env
-# change .env file with your api key
+# change .env file with your api key -> https://www.balldontlie.io/
 npm i
 npm run dev
 ```
@@ -33,7 +33,6 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 Start server locally at `http://localhost:5173`:
 
 ```bash
-# npm
 npm run dev
 ```
 
@@ -42,7 +41,6 @@ npm run dev
 To run end to end tests, first make sure development server is runing, so:
 
 ```bash
-# npm
 npm run test
 ```
 
